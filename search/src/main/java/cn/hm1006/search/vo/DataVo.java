@@ -1,0 +1,1 @@
+package cn.hm1006.search.vo;import lombok.Data;import java.util.List;/** * @author : Two * @version : v1.0 * @description TODO * @date : 2021/3/2 20:36 */@Datapublic class DataVo<T> {    private Integer code = 0;    private String msg = "";    private Long count;    private List<T> data;}

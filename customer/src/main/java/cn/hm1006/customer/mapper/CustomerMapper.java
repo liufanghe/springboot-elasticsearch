@@ -1,0 +1,1 @@
+package cn.hm1006.customer.mapper;import cn.hm1006.customer.entity.Customer;/** * @author : Two * @version : v1.0 * @description TODO * @date : 2021/3/2 19:47 */public interface CustomerMapper {    int addCustomer(Customer customer);}

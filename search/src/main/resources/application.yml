@@ -1,0 +1,10 @@
+server:
+  port: 8080
+
+elasticsearch:
+# 腾讯云7.5.1(暂时不可用)
+#  host: es-lrm121b7.public.tencentelasticsearch.com
+#  port: 9200
+  #阿里云6.7.0
+  host: es-cn-nif22ixht002192he.public.elasticsearch.aliyuncs.com
+  port: 9200

@@ -1,0 +1,1 @@
+package cn.hm1006.customer.service;import cn.hm1006.customer.entity.Customer;import java.util.Map;/** * @author : Two * @version : v1.0 * @description TODO * @date : 2021/3/2 21:57 */public interface ICustomerService {    String searchAll(Map<String,Object> map);    void addCustomer(Customer customer);}
